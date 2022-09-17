@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@300&family=Merriweather:wght@300&family=Ms+Madi&family=Oooh+Baby&family=Oswald:wght@200;400&family=Poiret+One&display=swap');
+
+:root {
+  --navy-background: #f1f1f1;
+  --blue-color: #a5cad9;
+  --black-color: #e8e7e7;
+  --red-color: #b82601;
+  --purple-color: #813772;
+  --white-color: #5f5b5b;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  cursor: url(../public/icons8-select-24.png),  default;
+  font-family: 'Cormorant Garamond', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#base-container {
+  height: 100%;
+  width: 100%;
+  background-color: var(--navy-background);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
